@@ -9,6 +9,4 @@ class Solution:
                 start = max(start, d[c]);
             d[c] = i+1;
             ans = max(ans, i - start + 1);
-            print(ans);
-            print(start,i);
         return ans;
